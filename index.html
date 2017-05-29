@@ -6,8 +6,8 @@
     </head>
     <body>
         <div id="app">
-          <input type="text" v-on:input="changeTitle">
-          <p>{{ title }}</p>
+          <input type="text" />
+          <p>{{ sayHello() }} - <a v-bind:href="link">Google</a></p>
         </div>
     </body>
     <script src="scripts/vue.js"></script>
