@@ -10,6 +10,14 @@ new Vue({
             return this.counter > 5 ? 'Greater than 5' : 'Less than or equal to 5';
         }
     },
+    watch: {
+        counter: function(value) {
+            var vi = this;
+            setTimeout(function() {
+                vi.counter = 0;
+            },2000);
+        }
+    },
     methods: {
         result() {
             console.log('Method');
