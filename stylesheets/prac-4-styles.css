@@ -4,6 +4,11 @@
   border: 1px solid black;
 }
 
+#effectTwo {
+    width: 50px;
+    height: 50px;
+}
+
 .highlight {
   background-color: red;
   width: 200px !important;
@@ -12,4 +17,34 @@
 .shrink {
   background-color: gray;
   width: 50px !important;
+}
+
+.orangeBox {
+    width: 75px;
+    height: 75px;
+    background-color: #FBBBB9;
+}
+
+.emphasisBorder {
+    border: 3px dotted black;
+}
+
+.greenBox {
+    width: 100px;
+    height: 25px;
+    border: 1px dashed #5A8B63;
+    background-color: #D2FFDA;
+}
+
+.purpleBox {
+    width: 75px;
+    height: 75px;
+    border: 1px dashed #D2BFFF;
+    background-color: #8566CD;
+}
+
+.progress {
+    background-color: red;
+    height: 40px;
+    width: 0px;
 }
